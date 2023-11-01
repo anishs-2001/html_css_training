@@ -1,0 +1,65 @@
+  .header {
+    background-color: rgb(12, 59, 96);
+    height: 180px;
+  }
+  .shape {
+    background-color: blanchedalmond;
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    margin-top: 40px;
+    border-bottom-right-radius: 50px;
+  }
+  .image {
+    position :absolute;
+    margin-left: 80px;
+    margin-top: 15px;
+  }
+  #image_id {
+    height: 150px;
+    width: 130px;
+  }
+  img {
+    border-radius: 50%;
+  }
+  .info{
+    margin-left: 200px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-top: 25px;
+  }
+  .container {
+        display: flex;
+        width: 100%;
+  }
+  .left {
+    flex: 1;
+    background-color: rgb(12, 59, 96);
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: -30px;
+    text-align: justify;
+  }
+  .right {
+    flex: 3;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+  .left h3 {
+    text-align: center;
+  }
+  #left_border {
+    margin-left: -20px;
+  }
+  .table {
+    text-align: justify;
+  }
+  td {
+    border-right: 40px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+  }
+  

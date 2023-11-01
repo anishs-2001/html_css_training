@@ -1,0 +1,70 @@
+.top_header{
+    margin-left: 10px;
+}
+
+.doctor_image {
+    position:relative
+}
+
+.content {
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content h1 {
+    font-size:60px; 
+}
+
+.content h4 {
+    line-height:27px;
+}
+
+.small {
+    background-color:#17C1A3;
+    color: white;
+    font-size: medium;
+    border: #17C1A3;
+    border-radius: 6px;
+    padding: 10px 39px;
+    cursor: pointer;
+}
+
+.appointment {
+    position: absolute;
+    top:550px;
+    left:80px;
+    background-color: white;
+    width: 85%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+/* .appointment_row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input {
+    flex: 1;
+    padding: 10px 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+#inputdepartment {
+    padding: 10px 56px;
+    border-radius: 5px;
+}
+
+#inputdoctor {
+    padding: 10px 71px;
+    border-radius: 5px;
+}
+
+#inputdate {
+    padding: 10px 58px;
+} */
