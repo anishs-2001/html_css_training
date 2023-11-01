@@ -1,5 +1,6 @@
 .top_header{
-    margin-left: 10px;
+    margin-left:60px;
+    margin-right:60px;
 }
 
 .doctor_image {
@@ -10,7 +11,6 @@
     position: absolute;
     top: 150px;
     left: 120px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content h1 {
@@ -68,3 +68,121 @@
 #inputdate {
     padding: 10px 58px;
 } */
+
+#our_dept {
+    margin-top: 150px;
+}
+
+#dept_row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dept_row1 img {
+    height: 220px;
+    width: 350px;
+}
+
+#dept_row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dept_row2_style {
+    width: 350px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#dept_row3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dept_row3_style {
+    width: 350px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #17C1A3;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+#why_gg {
+    margin-top: 100px;
+    background-color: #E8F9F6;
+    position: relative;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+#why_gg img {
+    width: 720px;
+    height: 500px;
+}
+
+#why_gg_text {
+    position: absolute;
+    left: 62%;
+    top: 20%;
+    line-height: 45px;
+    height: fit-content;
+}
+
+#why_gg_text img {
+    width: 13px;
+    height: 13px;
+}
+
+#specialist {
+    margin-top: 100px;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+.specialist_heading {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+
+#specialist_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#specialist_img img{
+    width: 250px;
+    height: 300px;
+}
+
+#specialist_name {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.specialist_text {
+    line-height: 12px;
+    width: 250px;
+}
+
+#facilities {
+    margin-top: 80px;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+#facilities h2 {
+    text-align: center;
+}
+
+#facilities_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#facilities_img img{
+    height: 210px;
+    width: 330px;
+}
