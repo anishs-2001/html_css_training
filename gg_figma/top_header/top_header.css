@@ -9,12 +9,29 @@
     width: 100%;
     justify-content: space-between;
     background-color: rgb(241, 241, 241);
-  }
-  #gg_icon{
+}
+
+#left_header {
+    margin-left: 50px;
+}
+
+#left_header i {
+    margin-left: 10px;
+}
+
+#right_header {
+    margin-right: 50px;
+}
+
+#right_header i {
+    margin-left: 50px;
+}
+
+#gg_icon{
     padding-top: 1%;
     height: 50px;
     width: 12%;
-  }
+}
 
 .doctor_image {
     position:relative
@@ -43,13 +60,16 @@
     padding: 10px 39px;
     cursor: pointer;
 }
+#doctors_talk {
+    margin-left: 20px;
+} 
 
 .appointment {
     position: absolute;
     top:550px;
-    left:100px;
+    left:115px;
     background-color: white;
-    width: 83%;
+    width: 80%;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
@@ -267,8 +287,16 @@ input {
     display: flex;
     margin-left: 100px;
     line-height: 30px;
+    margin-top: -150px;
 }
 
+.img_sub_overlap {
+    display: flex;
+}
+
+#newsletter_box img {
+    height: 150px;
+}
 #newsletter_content1 {
     flex: 1;
     margin-top: 25px;
@@ -296,6 +324,8 @@ input {
     justify-content: space-evenly;
     margin-top: 40px;
     margin-bottom: -20px;
+    margin-left: -50px;
+    margin-right: -50px;
 }
   
 #up_1 {
@@ -305,7 +335,7 @@ input {
 
 #up_1 p{
     line-height: 20px;
-    font-size: x-small;
+    font-size: 13px;
 }
   
 #up_1 img {
@@ -315,6 +345,7 @@ input {
 #up2_grid {
     display: grid;
     grid-template-columns: auto auto;
+    line-height: 5px;
 }
   
 .up2_class {
@@ -331,6 +362,7 @@ input {
 #up3_grid {
     display: grid;
     grid-template-columns: auto auto;
+    line-height: 5px;
 }
   
 .up3_class {
@@ -351,7 +383,7 @@ input {
 }
   
 #foot_hr {
-    width: 85%;
+    width: 90%;
 }
   
 #down_foot {
@@ -363,6 +395,7 @@ input {
     font-size: 11px;
     margin-top: 80px;
     line-height: 20px;
+    font-size: 13px;
 }
 
 #down_1 {
