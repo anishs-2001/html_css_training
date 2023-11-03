@@ -1,9 +1,9 @@
-.top_header{
-    margin-left:60px;
-    margin-right:60px;
+.top_header {
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
-#header_icon{
+#header_icon {
     font-size: small;
     display: flex;
     width: 100%;
@@ -27,14 +27,14 @@
     margin-left: 50px;
 }
 
-#gg_icon{
+#gg_icon {
     padding-top: 1%;
     height: 50px;
     width: 12%;
 }
 
 .doctor_image {
-    position:relative
+    position: relative
 }
 
 .content {
@@ -44,15 +44,15 @@
 }
 
 .content h1 {
-    font-size:60px; 
+    font-size: 60px;
 }
 
 .content h4 {
-    line-height:27px;
+    line-height: 27px;
 }
 
 .small {
-    background-color:#17C1A3;
+    background-color: #17C1A3;
     color: white;
     font-size: medium;
     border: #17C1A3;
@@ -60,14 +60,15 @@
     padding: 10px 39px;
     cursor: pointer;
 }
+
 #doctors_talk {
     margin-left: 20px;
-} 
+}
 
 .appointment {
     position: absolute;
-    top:550px;
-    left:115px;
+    top: 550px;
+    left: 115px;
     background-color: white;
     width: 80%;
     border-radius: 10px;
@@ -85,17 +86,17 @@
 }
 
 input {
-  width: 30%;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
 }
 
 .appointment_row select {
     padding: 10px;
     border-radius: 5px;
-    width: 30%; 
+    width: 30%;
     box-sizing: border-box;
     border: 1px solid #ccc;
     display: flex;
@@ -103,7 +104,7 @@ input {
 
 #inputdate {
     padding: 10px 58px;
-} 
+}
 
 .appointment_row button {
     width: 30%;
@@ -152,8 +153,8 @@ input {
     margin-top: 100px;
     background-color: #E8F9F6;
     position: relative;
-    margin-left:60px;
-    margin-right:60px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 #why_gg img {
@@ -176,8 +177,8 @@ input {
 
 #specialist {
     margin-top: 100px;
-    margin-left:60px;
-    margin-right:60px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .specialist_heading {
@@ -191,7 +192,7 @@ input {
     justify-content: space-between;
 }
 
-#specialist_img img{
+#specialist_img img {
     width: 250px;
     height: 300px;
 }
@@ -209,8 +210,8 @@ input {
 
 #facilities {
     margin-top: 80px;
-    margin-left:60px;
-    margin-right:60px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 #facilities h2 {
@@ -223,15 +224,15 @@ input {
     justify-content: space-between;
 }
 
-#facilities_img img{
+#facilities_img img {
     height: 210px;
     width: 330px;
 }
 
 #interest {
     margin-top: 80px;
-    margin-left:60px;
-    margin-right:60px;
+    margin-left: 60px;
+    margin-right: 60px;
     z-index: 100;
 }
 
@@ -267,7 +268,7 @@ input {
 }
 
 #blue_background {
-    background-color:#EAF2FF;
+    background-color: #EAF2FF;
     height: 550px;
     position: relative;
     margin-top: -220px;
@@ -278,12 +279,12 @@ input {
     background-color: white;
     width: 91%;
     height: 150px;
-    position:absolute;
+    position: absolute;
     top: 57%;
     left: 5%;
 }
 
-#newsletter{
+#newsletter {
     display: flex;
     margin-left: 100px;
     line-height: 30px;
@@ -297,6 +298,7 @@ input {
 #newsletter_box img {
     height: 150px;
 }
+
 #newsletter_content1 {
     flex: 1;
     margin-top: 25px;
@@ -309,8 +311,8 @@ input {
 
 #newsletter input {
     font-size: medium;
-    height:40px;
-    width:200px;
+    height: 40px;
+    width: 200px;
     border-style: none;
 }
 
@@ -324,68 +326,67 @@ input {
     justify-content: space-evenly;
     margin-top: 40px;
     margin-bottom: -20px;
-    margin-left: -50px;
-    margin-right: -50px;
+    margin-left: -20px;
 }
-  
+
 #up_1 {
     font-size: smaller;
     text-align: justify;
 }
 
-#up_1 p{
+#up_1 p {
     line-height: 20px;
     font-size: 13px;
 }
-  
+
 #up_1 img {
     width: 200px;
 }
-  
+
 #up2_grid {
     display: grid;
     grid-template-columns: auto auto;
     line-height: 5px;
 }
-  
+
 .up2_class {
     text-align: center;
     padding: 15px;
     padding-top: 0px;
     font-size: smaller;
 }
-  
+
 #up_2 h4 {
     margin-left: 16px;
 }
-  
+
 #up3_grid {
     display: grid;
     grid-template-columns: auto auto;
     line-height: 5px;
 }
-  
+
 .up3_class {
     padding: 15px;
     padding-top: 0px;
     font-size: smaller;
 }
-  
+
 #up_3 h4 {
     margin-left: 18px;
 }
-  
+
 #foot_line {
     position: relative;
     z-index: 30;
     margin-bottom: -60px;
     margin-top: 30px;
 }
-  
+
 #foot_hr {
     width: 90%;
 }
-  
+
 #down_foot {
     display: flex;
     justify-content: space-evenly;
